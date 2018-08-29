@@ -15,7 +15,7 @@ public class SayHello{
 		        String inputName = myInput.nextLine();
 		        System.out.println("Hello, " + inputName);	
 
-	      }
+	}
 
 	
 }
