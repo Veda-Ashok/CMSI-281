@@ -1,5 +1,5 @@
 /*
-* This program was compied from the lesson and modified bu addignan insert and remove method.
+* This program was copied from the lesson and modified by addign an insert and remove method.
 *
 *
 *@Date 19 September 2018
