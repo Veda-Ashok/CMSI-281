@@ -1,5 +1,5 @@
 /*
-* This program was copied from the lesson and modified by adding more tests
+* This is a tester program that was copied from the lesson and modified by adding more tests.
 *
 *
 *@Date 19 September 2018
