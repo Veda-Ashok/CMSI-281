@@ -69,7 +69,16 @@ public class IntCircularList {
         }
 
     }
-
+        /*
+        * Search method that takes in parameters for a value and returns true if value is in the list
+        *
+        *
+        *@param value
+        *@return boolean
+        *@Author Veda Ashok
+        *@Author Sam Gibson
+        *
+        */
         public boolean search(int value){
         	Iterator iter = new Iterator();
 
@@ -87,7 +96,16 @@ public class IntCircularList {
             return false;
 
         }
-
+    
+        /*
+        * Step method to move "current" pointer to the next node
+        *
+        *
+        *
+        *@Author Veda Ashok
+        *@Author Sam Gibson
+        *
+        */
         public void step(){
 
         	current = current.next;
@@ -131,6 +149,7 @@ public class IntCircularList {
         *
         *
         *@param index
+        *@return int value removed
         *@Author Veda Ashok
         *@Author Sam Gibson
         */
@@ -162,7 +181,7 @@ public class IntCircularList {
         * Display method to display the circular list
         *
         *
-        *@param index
+        *
         *@Author Veda Ashok
         *@Author Sam Gibson
         */
