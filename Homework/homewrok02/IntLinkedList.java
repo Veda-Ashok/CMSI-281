@@ -97,8 +97,7 @@ public class IntLinkedList {
             t.next();
         }
        
-        return size;
-        
+        return size;     
 
     }
 
@@ -123,17 +122,10 @@ public class IntLinkedList {
              iter.next();
 
         }
-
-
-        
+     
         newNode.next = iter.currentNode.next;
         iter.currentNode.next = newNode;
         size++;
-
-        
-
-      
-
     }
 
         /*
